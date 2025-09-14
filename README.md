@@ -13,6 +13,7 @@
 ## 📚 Visão Geral
 
 Projeto demonstrativo para:
+
 - Experimentação de recursos AWS via Terraform
 - Exercício de organização modular
 - Demonstração de automação CI/CD com GitHub Actions
