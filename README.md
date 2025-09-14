@@ -1,21 +1,24 @@
 # 🚀 Infrastructure as Code - AWS Terraform Demo
 
+<p align="center">
 [![Last update](https://img.shields.io/github/last-commit/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/commits/main)
 [![License](https://img.shields.io/github/license/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](LICENSE)
 [![Made with Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?logo=terraform&logoColor=white&style=flat-square)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white&style=flat-square)](https://aws.amazon.com/)
 [![Issues](https://img.shields.io/github/issues/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/issues)
 [![Stars](https://img.shields.io/github/stars/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/stargazers)
+</p>
+<p align="center">
 [![Terraform](https://img.shields.io/badge/Terraform-1.0+-623CE4?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-
+</p>
 ---
 
 ## 📋 Sobre o Projeto
 
-Exemplo prático de **infraestrutura como código (IaC)** utilizando Terraform para provisionamento de recursos AWS. 
+Exemplo prático de **infraestrutura como código (IaC)** utilizando Terraform para provisionamento de recursos AWS.
 
 Este projeto demonstra boas práticas de DevOps incluindo:
 
@@ -140,3 +143,17 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 **⭐ Se este projeto te ajudou, considere dar uma estrela!**
 
 Made with ❤️ by [Alex Rabelo](https://github.com/AlexRabelo)
+
+---
+
+## 👤 Sobre o Autor
+
+[![Alex Rabelo - Linkedin](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alexrabelo/)
+
+**Alex Rabelo**  
+Especialista em infraestrutura de TI e Cloud (AWS, Azure) com forte atuação em automação, DevOps, provisionamento via Terraform, ambientes Linux e segurança.  
+Experiência prática em ambientes críticos de seguro, bancos e cloud corporativa.  
+Atua disseminando cultura DevOps, arquitetura de soluções, treinamento linux e projetos de infraestrutura como código.
+Estudante do Curso de Graduação de Ciência de Dados - MACKENZIE
+
+> Fique à vontade para se conectar e trocar ideias sobre Cloud, DevOps, Terraform e carreira em tecnologia!
