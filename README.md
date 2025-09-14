@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/github/license/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](LICENSE)
 [![Made with Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?logo=terraform&logoColor=white&style=flat-square)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white&style=flat-square)](https://aws.amazon.com/)
+[![Issues](https://img.shields.io/github/issues/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/issues)
+[![Stars](https://img.shields.io/github/stars/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/stargazers)
+
 
 > **Exemplo prático de infraestrutura como código (IaC) utilizando Terraform para provisionamento de recursos AWS.**  
 > Inclui VPC, EC2, S3, pipelines CI/CD, organização modular e boas práticas de DevOps.
@@ -24,12 +27,12 @@ Projeto demonstrativo para:
 
 ```
 iac-aws-terraform-demo/
-├── README.md
-├── .gitignore
-├── main.tf
-├── providers.tf
-├── variables.tf
-├── outputs.tf
+├── 📄 README.md
+├── 🚫 .gitignore
+├── ⚙️ main.tf
+├── 🔌 providers.tf
+├── 📝 variables.tf
+├── 📝 outputs.tf
 ├── terraform.tfvars.example
 ├── /modules/
 ├── /environments/
