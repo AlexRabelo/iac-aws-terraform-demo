@@ -1,19 +1,30 @@
 # 🚀 Infrastructure as Code - AWS Terraform Demo
 
 <p align="center">
-[![Last update](https://img.shields.io/github/last-commit/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/commits/main)
-[![License](https://img.shields.io/github/license/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](LICENSE)
-[![Made with Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?logo=terraform&logoColor=white&style=flat-square)](https://www.terraform.io/)
-[![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white&style=flat-square)](https://aws.amazon.com/)
-[![Issues](https://img.shields.io/github/issues/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/issues)
-[![Stars](https://img.shields.io/github/stars/AlexRabelo/iac-aws-terraform-demo?style=flat-square)](https://github.com/AlexRabelo/iac-aws-terraform-demo/stargazers)
+  <a href="https://github.com/AlexRabelo/iac-aws-terraform-demo/commits/main">
+    <img src="https://img.shields.io/github/last-commit/AlexRabelo/iac-aws-terraform-demo?style=flat-square" alt="Last update">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/AlexRabelo/iac-aws-terraform-demo?style=flat-square" alt="License">
+  </a>
+  <a href="https://www.terraform.io/">
+    <img src="https://img.shields.io/badge/Terraform-1.0+-623CE4?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+  </a>
+  <a href="https://aws.amazon.com/">
+    <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS">
+  </a>
+  <a href="https://github.com/AlexRabelo/iac-aws-terraform-demo/issues">
+    <img src="https://img.shields.io/github/issues/AlexRabelo/iac-aws-terraform-demo?style=flat-square" alt="Issues">
+  </a>
+  <a href="https://github.com/AlexRabelo/iac-aws-terraform-demo/stargazers">
+    <img src="https://img.shields.io/github/stars/AlexRabelo/iac-aws-terraform-demo?style=flat-square" alt="Stars">
+  </a>
+  <a href="https://github.com/features/actions">
+    <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions">
+  </a>
 </p>
-<p align="center">
-[![Terraform](https://img.shields.io/badge/Terraform-1.0+-623CE4?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-</p>
+
+
 ---
 
 ## 📋 Sobre o Projeto
