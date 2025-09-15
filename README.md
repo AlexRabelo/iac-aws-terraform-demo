@@ -38,6 +38,8 @@ Este projeto demonstra boas práticas de DevOps incluindo:
 - 📁 **Organização modular** e reutilizável
 - ✅ **Boas práticas** de segurança e versionamento
 
+Consulte o guia prático: [Como acessar EC2 via Session Manager](docs/session-manager-guide.md)
+
 ---
 
 ## 🎯 Objetivos
@@ -127,7 +129,7 @@ module "vpc" {
   
   vpc_cidr             = var.vpc_cidr
   availability_zones   = var.availability_zones
-  environment         = var.environment
+  environment          = var.environment
 }
 ```
 
@@ -165,6 +167,7 @@ Made with ❤️ by [Alex Rabelo](https://github.com/AlexRabelo)
 Especialista em infraestrutura de TI e Cloud (AWS, Azure) com forte atuação em automação, DevOps, provisionamento via Terraform, ambientes Linux e segurança.  
 Experiência prática em ambientes críticos de seguro, bancos e cloud corporativa.  
 Atua disseminando cultura DevOps, arquitetura de soluções, treinamento linux e projetos de infraestrutura como código.
+
 Estudante do Curso de Graduação de Ciência de Dados - MACKENZIE
 
 > Fique à vontade para se conectar e trocar ideias sobre Cloud, DevOps, Terraform e carreira em tecnologia!
