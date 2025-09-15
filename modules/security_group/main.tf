@@ -8,7 +8,7 @@ resource "aws_security_group" "lab" {
 
   # Regras de entrada
   ingress {
-    description = "Permitir SSH para acesso em laboratório"
+    description = "Permitir SSH para acesso em laboratorio"
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"

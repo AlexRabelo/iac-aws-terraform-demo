@@ -6,12 +6,12 @@ variable "sg_name" {
 }
 
 variable "sg_description" {
-  description = "Descrição do Security Group"
+  description = "Descricao do Security Group"
   type        = string
 }
 
 variable "vpc_id" {
-  description = "ID da VPC à qual o Security Group pertence"
+  description = "ID da VPC a qual o Security Group pertence"
   type        = string
 }
 

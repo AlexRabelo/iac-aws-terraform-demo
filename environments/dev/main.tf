@@ -29,6 +29,26 @@ module "security_group" {
   cidr_blocks_ssh = ["0.0.0.0/0"]              # Só para testes! (Na prática, restrinja para seu IP)
 }
 
+# Provisiona Role e Instance Profile para uso do AWS SSM
+module "ssm_role" {
+  source       = "../../modules/ssm_role"
+  role_name    = "iacdemo-ec2-ssm"
+  profile_name = "iacdemo-ec2-ssm-profile"
+}
+
+# Chama módulo EC2 para criar a instância 
+module "ec2" {
+  source                = "../../modules/ec2"
+  ami_id                = "ami-04902260ca3d33422"                     # Altere conforme a regiao e atualizado
+  instance_type         = "t2.micro"
+  subnet_id             = module.vpc.subnet_id
+  sg_id                 = module.security_group.sg_id
+  associate_public_ip   = true                                        # Para laboratorio/teste
+  iam_instance_profile  = module.ssm_role.iam_instance_profile_name   # Ou insira o profile do SSM, se modularizou
+  key_name              = null                                        # Ou sua key para SSH tradicional, se desejar
+  ec2_name              = "iacdemo-lab-ec2"
+  environment           = "lab"
+}
 
 # Adicione aqui os próximos módulos: security group, EC2, etc.
 # Exemplo:
