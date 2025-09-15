@@ -20,6 +20,16 @@ module "network" {
   route_table_name = "iacdemo-public-rt-dev"
 }
 
+# Chama módulo Security Group padrão para EC2 de laboratório
+module "security_group" {
+  source         = "../../modules/security_group"
+  sg_name        = "iacdemo-sg-lab"
+  sg_description = "Security Group - Lab SSH"
+  vpc_id         = module.vpc.vpc_id           # Usa output do módulo VPC
+  cidr_blocks_ssh = ["0.0.0.0/0"]              # Só para testes! (Na prática, restrinja para seu IP)
+}
+
+
 # Adicione aqui os próximos módulos: security group, EC2, etc.
 # Exemplo:
 # module "ec2" {
