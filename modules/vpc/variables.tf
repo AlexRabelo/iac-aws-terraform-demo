@@ -6,7 +6,7 @@ variable "vpc_cidr" {
 }
 
 variable "subnet_cidr" {
-  description = "CIDR block para a Subnet pública (ex: 10.0.1.0/24)"
+  description = "CIDR block para a Subnet publica (ex: 10.0.1.0/24)"
   type        = string
 }
 
@@ -21,14 +21,14 @@ variable "subnet_name" {
 }
 
 variable "az" {
-  description = "Availability Zone da Subnet pública (ex: us-east-1a)"
+  description = "Availability Zone da Subnet publica (ex: us-east-1a)"
   type        = string
 }
 
 # Permite inserir múltiplas tags em todos os recursos deste módulo.
 # Recomenda-se sempre inserir tags de Owner, Environment e Project para facilitar rastreabilidade e compliance.
 variable "tags" {
-  description = "Mapa de tags padrão para todos os recursos (ex: Owner, Environment, Project)"
+  description = "Mapa de tags padrao para todos os recursos (ex: Owner, Environment, Project)"
   type        = map(string)
   default     = {}
 }
