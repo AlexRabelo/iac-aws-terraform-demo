@@ -1,4 +1,6 @@
-# outputs.tf - Define outputs para reaproveitar VPC e Subnet em outros módulos
+# outputs.tf - Outputs reutilizáveis do módulo VPC
+#
+# Use os outputs em outros módulos para conectar/subsidiar recursos (ex: subnets, security groups, etc.)
 
 output "vpc_id" {
   description = "ID da VPC criada pelo módulo"
@@ -6,6 +8,7 @@ output "vpc_id" {
 }
 
 output "subnet_id" {
-  description = "ID da subnet pública criada pelo módulo"
+  description = "ID da Subnet pública criada pelo módulo"
   value       = aws_subnet.public.id
 }
+# Adicione outros outputs conforme necessário, como route table ID, etc.
