@@ -21,7 +21,7 @@ module "vpc" {
   vpc_name    = "iacdemo-vpc-dev"
   subnet_name = "iacdemo-public-subnet-dev"
   az          = "us-east-1a"          # Zona de disponibilidade (pode ser variável)
-  # tags = local.default_tags         # Descomente após ajustar o módulo VPC para receber tags como variável
+  tags = local.default_tags         # Descomente após ajustar o módulo VPC para receber tags como variável
 }
 
 # Chama o módulo Network, responsável por IGW e Route Table pública
@@ -31,7 +31,7 @@ module "network" {
   subnet_id        = module.vpc.subnet_id            # Utiliza saída (output) do módulo VPC para subnet
   igw_name         = "iacdemo-igw-dev"
   route_table_name = "iacdemo-public-rt-dev"
-  # tags = local.default_tags         # Descomente após ajustar o módulo Network para receber tags como variável
+  tags = local.default_tags         # Descomente após ajustar o módulo Network para receber tags como variável
 }
 
 # Chama módulo Security Group padrão para EC2 de laboratório
@@ -41,7 +41,7 @@ module "security_group" {
   sg_description  = "Security Group - Lab SSH"
   vpc_id          = module.vpc.vpc_id               # Usa output do módulo VPC
   cidr_blocks_ssh = ["0.0.0.0/0"]                   # Só para testes! (Na prática, restrinja para seu IP)
-  # tags = local.default_tags         # Adicione tags após adaptar seu módulo
+  #tags = local.default_tags         # Adicione tags após adaptar seu módulo
 }
 
 # Provisiona Role e Instance Profile para uso do AWS SSM
